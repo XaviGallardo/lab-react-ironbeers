@@ -1,0 +1,150 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #777;
+  box-sizing: border-box;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-container section {
+  width: 100%;
+  border: 1px solid lightgray;
+  margin: 5px 10px 10px 5px;
+}
+
+.home-container section h3 {
+  color: rgb(68, 66, 66);
+  margin: 0;
+}
+
+.home-container section p {
+  font-size: 17px;
+  color: rgba(128, 128, 128, 0.603);
+}
+
+.beers,
+.random-beer,
+.new-beer {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+
+.beers {
+  /* background-image: linear-gradient(
+      to left top,
+      rgba(0, 0, 0, 0.157),
+      rgba(104, 41, 41, 0.856)
+    ),
+    url('./images/beers.jpg'); */
+  background-image: url('./images/beers.jpg');
+}
+
+.random-beer {
+  /* background-image: linear-gradient(
+      to left top,
+      rgba(0, 0, 0, 0.157),
+      rgba(104, 41, 41, 0.856)
+    ),
+    url('./images/random-beer.jpg'); */
+  background-image: url('./images/random-beer.jpg');
+}
+
+.new-beer {
+  /* background-image: linear-gradient(
+      to left top,
+      rgba(0, 0, 0, 0.157),
+      rgba(104, 41, 41, 0.856)
+    ),
+    url('./images/new-beer.jpg'); */
+  background-image: url('./images/new-beer.jpg');
+}
+
+.home-button {
+  background-color: #59c3ff;
+  display: flex;
+  justify-content: center;
+}
+
+.home-button img {
+  width: 40px;
+  padding: 5px;
+}
+
+.beer-card {
+  display: flex;
+  border-bottom: 1px solid lightgrey;
+}
+
+.beer-card img {
+  height: 200px;
+}
+
+.beer-card-container {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+.beer-card-container p {
+  margin: 0;
+}
+
+.beer-card-image {
+  width: 200px;
+  text-align: center;
+}
+
+.beer-name {
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+}
+
+.beer-tagline {
+  font-size: 22px;
+  color: gray;
+}
+
+.beer-author {
+  font-size: 14px;
+}
+
+.beer-author span {
+  font-weight: bold;
+}
+
+.single-beer {
+  margin: 10px;
+}
+
+.single-beer img {
+  max-height: 500px;
+  text-align: center;
+}
+
+.input {
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.message-box {
+  width: 100px;
+  background-color: lightgreen;
+  color: green;
+  font-weight: bold;
+}
